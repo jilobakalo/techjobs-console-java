@@ -14,6 +14,7 @@ import java.util.List;
 /**
  * Created by LaunchCode
  */
+
 public class JobData {
 
     private static final String DATA_FILE = "resources/job_data.csv";
@@ -28,6 +29,7 @@ public class JobData {
      * @param field The column to retrieve values from
      * @return List of all of the values of the given field
      */
+
     public static ArrayList<String> findAll(String field) {
 
         // load data, if not already loaded
